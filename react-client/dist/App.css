@@ -2,6 +2,35 @@
 /* CSS Document */
 body{
 	background-color:#eee;
+
+}
+.all{
+	display: none;
+}
+span{
+	margin-right: 15px;
+}
+
+.homeWork{
+color: white;
+background-color:rgba(34,43,55,1.00);
+	padding:60px 20px;
+	box-shadow: rgba(34, 43, 55,0.5) 3px 0px 10px;
+}
+
+.txtName{
+margin-bottom: 15px;	
+width:50%;
+
+}
+label{
+	margin-right: 50px;
+	font-size:30px;
+}
+.header{
+	text-align: center;
+	color:rgba(47,88,139,1.00);
+	padding-bottom: 15px;
 }
 aside{
 	display:block;
@@ -52,10 +81,12 @@ aside ul li a{
 	background-color:rgba(255,255,255,0.8);
 	justify-content: center;
     align-items: center;
+    box-shadow: rgba(34, 43, 55,0.5) 3px 0px 10px;
 }
 .dash-row .data-box > div h3{
 	font-size:15px;
 	color:rgba(62,77,96,1.00);
+
 }
 .dash-row .data-box > div h3 span{
 	font-size:32px;
@@ -81,6 +112,7 @@ aside ul li a{
 	padding:0px;
 	height:auto;
 	min-height:300px;
+
 }
 .textarea-col > textarea{
 	width:100%;
@@ -89,6 +121,7 @@ aside ul li a{
 	background-color:rgba(255,255,255,0.8);
 	border-radius:3px;
 	padding:10px;
+	box-shadow: rgba(34, 43, 55,0.5) 3px 0px 10px;
 }
 .centralized-div{
 	position:relative;
@@ -108,4 +141,5 @@ aside ul li a{
 	border-radius:3px;
 	padding:10px 20px;
 	font-size:15px;
+
 }
